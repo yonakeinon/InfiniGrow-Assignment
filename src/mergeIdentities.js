@@ -1,4 +1,3 @@
-// src/mergeIdentities.js
 
 // Helper function to extract the domain from an email
 function getEmailDomain(email) {
@@ -63,5 +62,4 @@ function mergeIdentities(identities) {
     return mergedIdentities;
 }
 
-// Export the function for use in other modules
 module.exports = mergeIdentities;
